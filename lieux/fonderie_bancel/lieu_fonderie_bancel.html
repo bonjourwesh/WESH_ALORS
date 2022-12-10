@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+  <meta charset="UTF-8">
+  <title>🌁 Fonderie Bancel ↠ Dans les brumes 🌁</title>
+  <link rel="stylesheet" type="text/css" href="../ressource/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+</head>
+<body onload="fonctionTexteDepart()" onload="fonctionFondCooleur()" >
+
+<!----------------------------MENU DU HAUT-------------------------------->    
+    <div id="entete"> 
+      <div id= "titre"><a id= "lienTitre" class="brume" href="../../index.html">Dans les brumes</a>  / <a id= "lienTitre" class="menu_savoir" href="../menu_lieux.html">Lieux</a> / Fonderie Bancel</div>
+     
+
+      <div id="droite">
+        <div id="archive"> 
+        <a id="bouton_print" onclick="printPdf('../pdf/pdf_fonderie_bancel.pdf')"></a>
+          <a class="menu" href="../../archives/menu_archives.html">Archives</a>
+        </div>
+
+  <div id="couleur_boutons"> 
+
+  <input id="bouton_color" class="boutonCouleur" type="button" onclick="fonctionCouleur()">
+
+  <input id="bouton_jour" class="boutonCouleur" type="button" onclick="fonctionJour()">
+
+  <input id="bouton_nuit" class="boutonCouleur" type="button" onclick="fonctionNuit()">
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+
+<!----------------------------LE CORPS DE PAGE--------------------------------> 
+<div id="corps">
+
+  <!----------------------------PRECEDENT------------------------------>
+  <a href="javascript:history.go(-1)" id="nav" class="closed ">
+  <div id="page_precedente_text" class="titre_retour"> page précedente</div>
+
+  </a>
+
+
+  <!----------------------------LES LIENS------------------------------>
+
+
+
+
+<div id="les_pix" class="panel-one">
+
+
+<div class="wrap">
+    <div id="carousel">
+      
+      <span class="slide" id="image_v">    <img class="image_v" src="img/2.jpg"><div id="boite_legende"><p class="legende"> fonderie Bancel, collection</p></div></span>  
+      
+      <span class="slide" id="image_v">    <img class="image_v" src="img/3.jpg"><div id="boite_legende"> <p class="legende"> portail fonderie Bancel, avenue Colombier</p></div></span>
+      
+      <span class="slide" id="image_v">    <img class="image_v" src="img/4.jpg"><div id="boite_legende"><p class="legende"> fonderie Bancel, skatepark - Pré-Battoir</p></div></span>  
+
+     <span class="slide" id="image_h">    <img class="image_h" src="img/5.jpg"><div id="boite_legende"><p class="legende">fonderie Bancel, avenue Colombier</p></div></span>  
+
+     <span class="slide" id="image_h">    <img class="image_h" src="img/6.jpg"><div id="boite_legende"><p class="legende"> fonderie Bancel, atelier</p></div></span>  
+
+     <span class="slide" id="image_v">    <img class="image_v" src="img/7.jpg"><div id="boite_legende"><p class="legende"> fonderie Bancel, toiture shed</p></div></span>  
+
+     <span class="slide" id="image_h">    <img class="image_h" src="img/8.jpg"><div id="boite_legende"><p class="legende"> fonderie Bancel, toiture shed</p></div></span>  
+
+     <span class="slide" id="image_v">    <img class="image_v" src="img/9.jpg"><div id="boite_legende"><p class="legende"> fonderie Bancel, atelier</p></div></span>  
+
+     <span class="slide" id="image_v">    <img class="image_v" src="img/10.jpg"><div id="boite_legende"><p class="legende"> fonderie Bancel, atelier</p></div></span>  
+
+     <span class="slide" id="image_v">    <img class="image_v" src="img/11.jpg"><div id="boite_legende"><p class="legende">fonderie Bancel, presse</p></div></span>  
+
+
+     <span class="slide" id="image_v">    <img class="image_v" src="img/12.jpg"><div id="boite_legende"><p class="legende">fonderie Bancel, ebenisterie</p></div></span>  
+
+     <span class="slide" id="image_v">    <img class="image_v" src="img/13.jpg"><div id="boite_legende"><p class="legende">fonderie Bancel, fonderie</p></div></span>  
+
+     <span class="slide" id="image_v">    <img class="image_v" src="img/14.jpg"><div id="boite_legende"><p class="legende">fonderie Bancel, fonderie</p></div></span>  
+
+    <span class="slide" id="image_v">    <img class="image_v" src="img/15.jpg"><div id="boite_legende"><p class="legende">fonderie Bancel, fonderie</p></div></span>  
+
+
+     <span class="slide" id="image_v">    <img class="image_v" src="img/16.jpg"><div id="boite_legende"><p class="legende">fonderie Bancel, fonderie</p></div></span>  
+
+     <span class="slide" id="image_v">    <img class="image_v" src="img/17.jpg"><div id="boite_legende"><p class="legende">fonderie Bancel, fonderie aération</p></div></span>  
+
+     <span class="slide" id="image_v">    <img class="image_v" src="img/18.jpg"><div id="boite_legende"><p class="legende">fonderie Bancel, fonderie polissage</p></div></span>  
+
+     <span class="slide" id="image_v">    <img class="image_v" src="img/1.jpg"><div id="boite_legende"><p class="legende">fonderie Bancel, administration</p></div></span>  
+    </div>
+
+  <span id="prev" class="fleche"><</span>
+  <span id="next" class="fleche" >></span>
+</div>
+
+</div>
+
+
+<div class='resizable'>
+
+  <div class='resizers'>
+    <div class='resizer' id="boule_noire"></div>
+     <div id="txt_descriptif" class="txt_descriptif">
+       <span id="souligne_txt">Fonderie Bancel - manufacture de croix et de christs</span><br><br>
+
+La Manufacture Bancel est une entreprise de fabrication d’articles religieux et funéraires - patenôtrier - 
+créée en 1866. À cette époque, c’est Monsieur Jean-Joseph Viollet, habitant à Lyon, qui implante l’activité 
+dans le village. La première Manufacture est située dans le quartier Pré-Battoir.<br><br> 
+En 1890, l’usine se déplace donc 100m plus haut, au <a id= "lien_obj" href="../usine_joseph_perrier/lieu_usine_joseph_perrier.html">moulinage Pauze</a> - Fabrique Nouvelle ou usine Joseph 
+Perrier - où une <a id= "lien_obj" href="../../outils/page_outils/roue_aube.html">roue hydraulique</a> permet le polissage mécanique. Cependant les locaux sont exigus 
+et l’accès pour les véhicules acheminant le coke de fonderie et les métaux demande des manœuvres 
+complexes. Monsieur Cabut, gendre Viollet, fait construire l’actuelle usine à l’entrée de Saint-Julien, 
+avenue de Colombier. L’activité de l’usine débute en 1900. La production se concentre alors sur les croix 
+de «la Bonne Mort», fondue en laiton et incrustées d’ébène.<br><br>
+En 1919, la famille Bancel fait l’acquisition de l’usine. Joseph Bancel, mécanicien de formation modernise 
+la fabrication des Croix en concevant ses propres machines-outils. Il fait aussi l’acquisition de presses 
+mécaniques. Et crée de nouveaux modèles de Croix en ajoutant le travail des bois précieux: ébène, 
+palissandre, macassar, sont sertis dans des christs en bronze ciselé, des croix en argent fondues et 
+certains bijoux conçus spécialement pour les Ordres religieux. Avec les nouvelles matières plastiques, 
+imitation nacre ou autres teintes, la manufacture fabrique aussi des croix pour chapelets et d’autres 
+articles religieux comme des plaquettes, bénitiers, chemins de croix, l’usine produit environ 2000 modèles 
+différents.<br><br>
+Grâce à un catalogue illustré et rédigé en Français, Anglais, Allemand, Italien et Espagnol, et des représentants aux Etats-Unis, 
+Canada, Italie, Espagne, Belgique, etc, la manufacture fait connaître son travail 
+aux quatres coins du monde et ses fabrications sont reconnues pour leur qualité. Le nombre d’ouvriers 
+travaillant dans les locaux de la Manufacture Bancel augmente jusqu’à 80 travailleurs. Pendant la guerre 
+de 1914-1918, Joseph Bancel fabrique des pièces en acier pour la fusée des obus en acier. <br>
+L’usine aurait aussi accueilli une activité de <a id= "lien_obj" href="../../savoirs/tissage/savoir_tissage.html">tissage</a> lors de la seconde guerre mondiale dont on retrouve 
+des traces dans les agendas et livres de comptes de l’époque. <br><br>
+
+En 1961, c’est Marius Bancel qui reprend l’activité de son père. En 1966, la manufacture a cent ans 
+d’activité, elle continue la fabrication de Croix, bien que le Clergé et les ordres religieux en portent de 
+moins en moins. La concurrence étrangère se développe au cours de ces dernières années, notamment 
+en Italie, Espagne, au Japon et en Allemagne. Marius Bancel achète de nouvelles machines, et de 
+nouveaux modèles de christs lors de ventes aux enchères à Lyon, la collection de la manufacture dépasse 
+alors les 2400 modèles. Il fabrique aussi des christs “modernes”, modelés par son frère, Louis Bancel, 
+artiste dessinateur et sculpteur, monté à la capitale et éminemment reconnu, auquel le Musée Louis 
+Bancel à Bourg Argental est dédié. À cette époque, la manufacture fait travailler une quinzaine d’ouvriers. <br>
+Après des études en mécanique, Jean-Marc Bancel prend la suite de son père, formé sur le tas, il fait 
+vivre la manufacture jusqu’en 2014, date de son départ à la retraite. Malgré la diversification de la 
+production -sculptures, quincaillerie- les demandes faiblissent et l’activité diminue, lors de sa fermeture 
+la manufacture compte 3 ouvriers au total. Jean-Marc est l’un des derniers patenôtriers au monde, et 
+la famille Bancel reste détentrice d’un lieu, d’un savoir-faire et d’une collection de christs uniques en 
+France, par leur nombre, leurs dimensions, et leurs styles.<br><br>
+Différents <a id= "lien_obj" href="../../archives/menu_archives.html">documentaires et reportages</a> ont été filmés au sein de la manufacture. <br>
+Aujourd’hui la famille Bancel, propose au public de visiter la manufacture de Croix et d’assister à une 
+démonstration d’une coulée. Cette activité permet de préserver ce lieu-témoin afin de transmettre un 
+savoir-faire d’exception.
+
+
+
+     </div>
+
+  </div> 
+
+</div>
+
+</div>
+  <script src='./../../jquery-2.js'></script>
+  <script  src="../ressource/script_modif.js"></script>
+</body>
+</html>
