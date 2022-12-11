@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+  <meta charset="UTF-8">
+  <title>🌁 Fabrication du peigne ↠ Dans les brumes 🌁</title>
+  <link rel="stylesheet" type="text/css" href="../ressource/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+</head>
+<body onload="fonctionTexteDepart()" onload="fonctionFondCooleur()" >
+
+<!----------------------------MENU DU HAUT-------------------------------->    
+    <div id="entete"> 
+      <div id= "titre"><a id= "lienTitre" class="brume" href="../../index.html">Dans les brumes</a>  / <a id= "lienTitre" class="menu_savoir" href="../menu_savoirs.html">Savoir-faire</a> / Fabrication du peigne</div>
+     
+
+      <div id="droite">
+        <div id="archive"> 
+        <a id="bouton_print" onclick="printPdf('pdf_fabrication_peigne.pdf')"></a>
+          <a class="menu" href="../../archives/menu_archives.html">Archives</a>
+        </div>
+
+  <div id="couleur_boutons"> 
+
+  <input id="bouton_color" class="boutonCouleur" type="button" onclick="fonctionCouleur()">
+
+  <input id="bouton_jour" class="boutonCouleur" type="button" onclick="fonctionJour()">
+
+  <input id="bouton_nuit" class="boutonCouleur" type="button" onclick="fonctionNuit()">
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+
+<!----------------------------LE CORPS DE PAGE--------------------------------> 
+<div id="corps">
+
+  <!----------------------------PRECEDENT------------------------------>
+  <a href="javascript:history.go(-1)" id="nav" class="closed ">
+  <div id="page_precedente_text" class="titre_retour"> page précedente</div>
+
+  </a>
+
+
+  <!----------------------------LES LIENS------------------------------>
+
+  <div id="lien">
+    <p><span id="souligne_txt">étape 8</span><br>savoir-faire pratiqué par les peigner·es.</p>
+<a href="../montage_chaine/savoir_montage_chaine.html">→ découvrir l'étape suivante</a><br>
+<a href="../filage/savoir_filage.html">→ commencer au début du cycle</a>
+</div>
+
+<div id="les_pix" class="panel-one">
+
+
+<div class="wrap">
+    <div id="carousel">
+      <span class="slide" id="image_h">    <img class="image_h" src="img/1.jpg"><p class="legende"> machine à piquer - piquage de peigne</p></span>
+      
+      <span class="slide" id="image_v">    <img class="image_v" src="img/2.jpg"><p class="legende"> densité des dent, peigne</p></span>  
+      
+      <span class="slide" id="image_v">    <img class="image_v" src="img/3.jpg"><p class="legende"> <p class="legende"> peigne en fil</p></span>
+      
+      <span class="slide" id="image_v">    <img class="image_v" src="img/4.jpg"><p class="legende"><p class="legende"> reserve de cadre</p></span>
+
+      <span class="slide" id="image_h">    <img class="image_h" src="img/5.jpg"><p class="legende"> fabricant de peigne - archive</p></span>  
+      
+      <span class="slide" id="image_v">    <img class="image_v" src="img/6.jpg"><p class="legende"> machine pour fabriquer les peigne - laminage</p></span>  
+      
+      <span class="slide" id="image_v">    <img class="image_v" src="img/7.jpg"><p class="legende"> peigne jet d'air</p></span>  
+      
+      <span class="slide" id="image_h">    <img class="image_h" src="img/8.jpg"><p class="legende"><p class="legende"> peigne en roseau - Franck Trouiller</p></span>
+      
+      <span class="slide" id="image_h">    <img class="image_h" src="img/9.jpg"><p class="legende"> peigne en roseau - Franck Trouiller</p></span> 
+      
+      <span class="slide" id="image_h">    <img class="image_h" src="img/10.jpg"><p class="legende"><p class="legende"> schéma - peigne en roseau</p></span> 
+      
+      <span class="slide" id="image_v">    <img class="image_v" src="img/11.jpg"><p class="legende"> densité de peigne</p></span>   
+
+      <span class="slide" id="image_h">    <img class="image_v" src="img/12.jpg"><p class="legende"> poitrinière, cavalier et battant</p>
+      </span>
+
+      <span class="slide" id="image_v">    <img class="image_v" src="img/13.jpg"><p class="legende"> dent et lame</p></span>
+
+      <span class="slide" id="image_v">    <img class="image_v" src="img/14.jpg"><p class="legende"> machine à fabriquer les peigne, soudure des lame</p></span> 
+
+      <span class="slide" id="image_v">    <img class="image_v" src="img/15.jpg"><p class="legende"> machine pour le laminage</p></span> 
+
+      <span class="slide" id="image_h">    <img class="image_h" src="img/16.jpg"><p class="legende">peigne double dent</p></span> 
+
+      <span class="slide" id="image_v">    <video controls class="image_h"> <source src="img/17.mp4" type="video/mp4"><p class="legende"> archive - fabrication de peigne par Michel Linossier</p></span> 
+
+      <span class="slide" id="image_v">    <img class="image_v" src="img/18.jpg"><p class="legende"> fabrication des dents du peigne</p></span> 
+    
+
+      <span class="slide" id="image_v">    <img class="image_v" src="img/19.jpg"><p class="legende"> dent de peigne</p></span>
+
+      <span class="slide" id="image_v">    <img class="image_v" src="img/20.jpg"><p class="legende"> dent de peigne</p></span>  
+
+    </div>
+
+  <span id="prev" class="fleche"><</span>
+  <span id="next" class="fleche" >></span>
+</div>
+
+</div>
+
+
+<div class='resizable'>
+
+  <div class='resizers'>
+    <div class='resizer' id="boule_noire"></div>
+     <div id="txt_descriptif" class="txt_descriptif"></div>
+
+  </div> 
+
+</div>
+
+</div>
+<!-- partial -->
+  <script src='./../../jquery-2.js'></script>
+  <script  src="../ressource/script_modif.js"></script>
+    <script  src="script_changer_texte.js"></script>
+</body>
+</html>
