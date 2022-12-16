@@ -441,6 +441,7 @@ font-size: 1.2em;
   height: fit-content;
   position: fixed;
   right: 5%;
+  font-family: Texte_Serif;
   top: 15%;
   font-size: 1.1em;
   animation: move 120s linear infinite;
