@@ -149,23 +149,6 @@ document.getElementById("rectangle_droit").className= "fondRecit";
 
 
 
-function togglePlayYvetteRepondeur (a) {
-  a = a || window.event;
-  var btn = a.target;
-  if (!audioYvetteRepondeur.paused) {
-    btn.classList.remove('active');
-    document.getElementById('lettre_play').innerHTML = "Play";
-    audioYvetteRepondeur.pause();
-    isPlaying = false;
-  } else {
-    btn.classList.add('active');
-        document.getElementById('lettre_play').innerHTML = "Pause";
-    audioBistanclaque.play();
-    isPlaying = true;
-  }
-}
-
-
 
  ///////////////////////Didier//////////////////////////////////
 

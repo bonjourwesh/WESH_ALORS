@@ -1666,19 +1666,18 @@ document.getElementById("rectangle_droit").className= "fondRecit";
 
 }
 
-function togglePlayCaptationSon (e) {
+function togglePlayBistanclaque (e) {
   e = e || window.event;
   var btn = e.target;
-  if (!audioCaptationSon.paused) {
+  if (!audioBistanclaque.paused) {
     btn.classList.remove('active');
     document.getElementById('lettre_play').innerHTML = "Play";
-    audioCaptationSon.pause();
+    audioBistanclaque.pause();
     isPlaying = false;
   } else {
     btn.classList.add('active');
         document.getElementById('lettre_play').innerHTML = "Pause";
-    audioCaptationSon.play();
+    audioBistanclaque.play();
     isPlaying = true;
   }
 }
-
