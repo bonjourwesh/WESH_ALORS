@@ -88,10 +88,11 @@ a.menu{
 text-decoration: none;
 }
 
-a.menu:hover{
+#lienTitre:hover{
     color: black;
 text-decoration: underline;
 }
+
 
 
 /*---------------------------------PRINT -----------------------------*/ 

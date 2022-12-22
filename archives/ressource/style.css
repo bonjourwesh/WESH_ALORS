@@ -93,11 +93,8 @@ a.menu:hover{
 text-decoration: underline;
 }
 
-.brume:hover{
-  text-decoration: underline;
-}
 
-.menu_savoir:hover{
+#lienTitre:hover{
   text-decoration: underline;  
 }
 /*---------------------------------PRINT -----------------------------*/ 
@@ -263,6 +260,15 @@ background-position: center;
   background-size: contain;
 }
 
+.lightbox video {
+  display: block;
+  width: 80vw;
+  height: 80%;
+  top: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 #legende{
   background-color: white;
   padding-top: 15px;

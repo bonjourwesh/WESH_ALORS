@@ -93,11 +93,7 @@ a.menu:hover{
 text-decoration: underline;
 }
 
-.brume:hover{
-  text-decoration: underline;
-}
-
-.menu_savoir:hover{
+#lienTitre:hover{
   text-decoration: underline;  
 }
 /*---------------------------------PRINT -----------------------------*/ 
