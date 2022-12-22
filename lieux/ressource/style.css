@@ -314,11 +314,13 @@ background-repeat: no-repeat;
 
 video.image_v{
     justify-content: center;
-  margin-top: 2vh;
 width: auto;
-  height: 72vh;
+margin-top: 35vh;
+
+  height: 60vh;
 background-size: contain;
 background-repeat: no-repeat;}
+
 
 
 
