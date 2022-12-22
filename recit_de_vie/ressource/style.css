@@ -571,11 +571,13 @@ border-radius: 0px;
 .fiche_technique{
 height: 100%;
 width: -moz-available;
+width: -webkit-fill-available;
 position: fixed;
 display: block;
 margin-left: auto;
 margin-right: auto;
-overflow-y: scroll; }
+overflow-y: scroll; 
+}
 
 
 
