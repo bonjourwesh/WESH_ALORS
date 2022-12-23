@@ -60,6 +60,7 @@ if (left.offsetWidth < 700){
   document.querySelector('#boite_txt_48').style.display = "none";
   document.querySelector('#boite_txt_49').style.display = "none";
   document.querySelector('#boite_txt_50').style.display = "none";
+    document.querySelector('#boite_txt_96').style.display = "none";
 }
 else{
    document.querySelector('#boite_txt_1').style.display = "inline-block";
@@ -112,6 +113,7 @@ else{
    document.querySelector('#boite_txt_48').style.display = "inline-block";
    document.querySelector('#boite_txt_49').style.display = "inline-block";
    document.querySelector('#boite_txt_50').style.display = "inline-block";
+      document.querySelector('#boite_txt_96').style.display = "inline-block";
 
 
  
@@ -163,10 +165,8 @@ if (right.offsetWidth < 700){
   document.querySelector('#boite_txt_93').style.display = "none";
   document.querySelector('#boite_txt_94').style.display = "none";
   document.querySelector('#boite_txt_95').style.display = "none";
-  document.querySelector('#boite_txt_66').style.display = "none";
-  document.querySelector('#boite_txt_67').style.display = "none";
-  document.querySelector('#boite_txt_68').style.display = "none";
-  document.querySelector('#boite_txt_69').style.display = "none";
+  document.querySelector('#boite_txt_97').style.display = "none";
+  document.querySelector('#boite_txt_98').style.display = "none";
 
 }
 else{
@@ -215,6 +215,8 @@ else{
   document.querySelector('#boite_txt_93').style.display = "inline-block";
   document.querySelector('#boite_txt_94').style.display = "inline-block";
   document.querySelector('#boite_txt_95').style.display = "inline-block";
+    document.querySelector('#boite_txt_97').style.display = "inline-block";
+  document.querySelector('#boite_txt_98').style.display = "inline-block";
 
 }
 }
